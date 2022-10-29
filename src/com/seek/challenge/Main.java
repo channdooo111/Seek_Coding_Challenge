@@ -52,7 +52,7 @@ public class Main {
         LocalDateTime silentPeriodEndTime = null;
         int carsInSilentPeriod = Integer.MAX_VALUE;
 
-        int currentPeriodCarCount = 0;
+        int currentPeriodCarCount = 0;  
 
         for(int i = 0; i < trafficData.size(); i++) {
             currentPeriodCarCount += trafficData.get(i).getCount();

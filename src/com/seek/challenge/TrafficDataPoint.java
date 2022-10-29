@@ -11,7 +11,7 @@ public class TrafficDataPoint implements Comparable<TrafficDataPoint>{
         super();
         this.time = time;
         this.count = count;
-    }
+    }   
 
 
     @Override
